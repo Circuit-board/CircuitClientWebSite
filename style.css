@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(207, 186, 0);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    padding: 2%;
+}
+
+#main-container {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #00000075;
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+#Download-Btn {
+    color: white;
+    background-color: gold;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+    padding: 5%;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    transition: all .1s ease-in;
+    top: 30px;
+}
+
+#Download-Btn:hover {
+    background-color: rgb(255, 230, 88);
+}
+
+h3 {
+    top: 50px;
+}
